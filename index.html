@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	  <link rel = "stylesheet" href="newstyle.css">
+      <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+	  
+   </head>
+   
+   <body>
+   
+	<div data-role="page" id="pageone">
+		<div data-role="panel" data-position= "right" data-display="overlay" id="myPanel"> 
+			<h2>Panel Header..</h2>
+			<p>Some text in the panel..</p>
+			<ul data-role="listview" data-inset="true" data-filter="true" >
+				<li><a href="#">Acura</a></li>
+				<li><a href="#">Audi</a></li>
+				<li><a href="#">BMW</a></li>
+				<li><a href="#">Cadillac</a></li>
+				<li><a href="#">Ferrari</a></li>
+			</ul>			
+		</div> 
+		<!-- ui-alt-icon use this to switch to black icons below -->
+		<div data-role="header" data-theme="b">
+		  <a href="#myPanel" class="ui-nodisc-icon ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext ui-corner-all">Menu</a>
+		  <h1>Unique Jobs</h1>
+		  <a href="#myPanel" class="ui-nodisc-icon ui-btn ui-btn-icon-notext ui-corner-all ui-icon-myicon">Search</a>
+		</div>
+         
+         <div role = "main" class = "ui-content">
+
+			<a href="#pagetwo">Page 2</a>	
+
+		</br></br>
+
+		<ul data-role="listview" data-inset="false">
+			<li><a href = "#">
+				<img src="icons8-monkey-100.png" class="imgStyle">				
+			<h2>Broken Bells</h2>
+			<p>Broken Bells</p></a>
+			</li>
+			<li><a href="#">
+				<img src="icons8-white-jaguar-100.png" class="imgStyle">	
+			<h2>Warning</h2>
+			<p>Hot Chip</p></a>
+			</li>
+			<li><a href="#myPanel">
+				<img src="icons8-peng-100.png" class="imgStyle">
+			<h2>Wolfgang Amadeus Phoenix</h2>
+			<p>Phoenix</p></a>
+			</li>
+		</ul>
+		
+		</br></br>
+        </div>
+		
+		</div>
+
+		<div data-role="page" id="pagetwo">
+		<div data-role="header" data-theme="b">
+		  <a href="#" data-rel="back" class="ui-btn ui-btn-icon-left ui-btn-icon-notext ui-nodisc-icon  ui-corner-all">Menu</a>
+		  <h1>QuotesApp</h1>
+		  <a href="#myPanel" class="ui-btn ui-icon-search ui-btn-icon-left ui-btn-icon-notext ui-nodisc-icon ui-corner-all">Search</a>
+		</div>		
+		  <div data-role="main" class="ui-content">
+			<a href="#" data-rel="back">Back</a>
+			</br>
+				<p>Page 2</p>
+			</br>
+			<a href="#pagethree">Page 3</a>
+		  </div>
+		</div>
+		
+		<div data-role="page" id="pagethree">
+		  <div data-role="main" class="ui-content">
+			<a href="#" data-rel="back">Back</a>
+			</br>
+				<p>Page 3</p>
+			</br>
+			<a href="#pagetwo">Page 2</a>
+		  </div>
+		</div>			
+   </body>
+</html>
+
+
+<!--
+
+
+			<ul data-role="listview" data-inset="true" data-filter="true">
+				<li><a href="#">Acura</a></li>
+				<li><a href="#">Audi</a></li>
+			</ul>
+
+<ul data-role="listview">
+  <li><a href="#">Some Text Here</a></li>
+</ul>			
+</br>
+
+<ul data-role="listview">
+  <li><a href="#"><img src="us.png" alt="USA" class="ui-li-icon">USA</a></li>
+</ul>
+
+</br></br></br></br>
+<ul data-role="listview"> 
+  <li><a href="#">Default is right arrow</a></li>
+  <li data-icon="plus"><a href="#">data-icon="plus"</a></li>
+  <li data-icon="minus"><a href="#">data-icon="minus"</a></li>
+  <li data-icon="delete"><a href="#">data-icon="delete"</a></li>
+  <li data-icon="location"><a href="#">data-icon="location"</a></li> 
+  <li data-icon="false"><a href="#">data-icon="false"</a></li>
+</ul>
+
+<ul data-role="listview">
+  <li data-role="list-divider">Europe</li>
+  <li><a href="#">Norway</a></li>
+  <li><a href="#">Germany</a></li>
+</ul>
+
+		<div data-role="footer" data-theme="b">
+		  <h1>Insert Footer Text Here</h1>
+		  <div data-role="navbar">
+			<ul>
+			  <li><a href="#" data-icon="home" data-theme="a">Button 1</a></li>
+			  <li><a href="#" data-icon="arrow-l">Button 2</a></li>
+			  <li><a href="#" data-icon="arrow-r">Button 3</a></li>
+			  <li><a href="#" data-icon="search" data-theme="a">Button 4</a></li>
+			</ul>
+		  </div> 
+		</div>	
+-->
