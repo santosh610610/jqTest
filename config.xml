@@ -6,7 +6,7 @@
         id        = "com.santosh.jqTest"
         version   = "1.0.0">
 
-    <name>Quotes App</name>
+    <name>jQTest App</name>
 
     <description>
       Testing the jQ Mobile 
@@ -28,17 +28,17 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.santosh.QuotesApp"
+        id        = "com.santosh.jqTest"
         version   = "1.0.0">
 
-    <name>Quotes App</name>
+    <name>jQTest App</name>
 
-    <description>
-        Android application using HTML, CSS, JavaScript and OnSen UI Framework
-    </description>
+	<description>
+		Testing the jQuery Mobile
+	</description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
-        Quotes App
+        jQTest App
     </author>
 
     <!--
